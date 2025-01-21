@@ -1,6 +1,6 @@
 {
   "name": "my-turborepo",
-  "private": true,
+  "private": "true",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -19,5 +19,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
 }
